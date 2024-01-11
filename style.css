@@ -1,0 +1,59 @@
+body{
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: #0D1A2D;
+    display: flex;
+    justify-content: center;
+
+}
+#container{
+    background-color:#15273F; 
+    max-width: 252px;
+    min-width: 250px; 
+    padding: 20px 20px 0px 20px ; 
+    border-radius: 15px; 
+    float: left;
+}
+p{
+    Font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    color: #748DAC;
+}
+
+#ETH{
+    background-image: url(./assets/icon-ethereum.svg); 
+    background-repeat: no-repeat;
+    display: inline;
+    
+}
+#numeroETH{
+    color: #39ECEE; 
+    font-size: 16px; 
+    font-family: 'Outfit', sans-serif; 
+    margin-left: 18px;
+}
+
+#hour{
+    background-image: url(./assets/icon-clock.svg) ;
+    background-repeat: no-repeat;
+    display: inline;
+    position:absolute;
+    right: 0;
+    bottom: 2%;
+    width: 95px;
+    text-align: end;
+    font-family: 'Outfit', sans-serif;
+    color: #A4BDDD;
+}
+
+img{
+    border-radius: 5%;
+}
+
+#creation{
+    font-family: 'Outfit', sans-serif;
+    color: #fff; 
+    display: inline-block; 
+    margin: 30px 0px 0px 10px;
+}
+
